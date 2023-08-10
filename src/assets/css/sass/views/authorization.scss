@@ -1,12 +1,10 @@
 .auth-card {
   display: flex;
   flex-direction: row;
-  @include depth(1);
-
   .image-side {
-    width: 40%;
-    background: url('/assets/login/w1.jpg') no-repeat center top;
-    background-size: cover;
+    width: 50%;
+    background: url('/assets/login/w1.jpg') no-repeat  center ;
+    background-size: auto;
     padding: 80px 40px;
 
     .h3 {
@@ -15,8 +13,8 @@
   }
 
   .form-side {
-    width: 60%;
-    padding: 80px;
+    width: 50%;
+    padding: 80px 40px;
   }
 
   @include respond-below(md) {
@@ -24,7 +22,7 @@
 
     .image-side {
       width: 100%;
-      padding: 60px;
+      padding: 0px;
     }
 
     .form-side {

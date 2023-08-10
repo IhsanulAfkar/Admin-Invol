@@ -272,7 +272,7 @@ class Sidebar extends Component {
                           stroke={
                             this.props.location.pathname === '/app/dashboard' ||
                             this.state.isDashboardHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -311,7 +311,7 @@ class Sidebar extends Component {
                             this.props.location.pathname ===
                               '/app/transaksi-donasi' ||
                             this.state.isTransaksiHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -324,7 +324,7 @@ class Sidebar extends Component {
                             this.props.location.pathname ===
                               '/app/transaksi-donasi' ||
                             this.state.isTransaksiHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -365,7 +365,7 @@ class Sidebar extends Component {
                             this.props.location.pathname.substring(0, 24) ===
                               '/app/halaman-galang-dana' ||
                             this.state.isHalamanHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -378,7 +378,7 @@ class Sidebar extends Component {
                             this.props.location.pathname.substring(0, 24) ===
                               '/app/halaman-galang-dana' ||
                             this.state.isHalamanHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -413,7 +413,7 @@ class Sidebar extends Component {
                           stroke={
                             this.props.location.pathname.substring(0, 13) ===
                               '/app/pengguna' || this.state.isPenggunaHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -449,7 +449,7 @@ class Sidebar extends Component {
                           stroke={
                             this.props.location.pathname.substring(0, 10) ===
                               '/app/slide' || this.state.isSlideHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"
@@ -461,7 +461,7 @@ class Sidebar extends Component {
                           stroke={
                             this.props.location.pathname.substring(0, 10) ===
                               '/app/slide' || this.state.isSlideHovered
-                              ? '#E7513B'
+                              ? '#0288D1'
                               : '#717171'
                           }
                           strokeLinecap="round"

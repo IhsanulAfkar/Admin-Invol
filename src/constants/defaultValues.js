@@ -42,7 +42,7 @@ export const currentUser = {
 
 export const themeColorStorageKey = '__theme_selected_color'
 export const isMultiColorActive = false
-export const defaultColor = 'light.purplemonster'
+export const defaultColor = 'light.purplemonster' //change color disini
 export const isDarkSwitchActive = true
 export const defaultDirection = 'ltr'
 export const themeRadiusStorageKey = '__theme_radius'

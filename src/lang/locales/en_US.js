@@ -17,14 +17,15 @@ module.exports = {
     'You are not authorized to view the page you are trying to access.',
 
   /* 02.User Login, Logout, Register */
-  'user.login-title': 'Login',
+  'user.login-title': 'Masuk',
+  'user.login-description': 'Untuk mengakses admin Involuntir',
   'user.register': 'Register',
   'user.forgot-password': 'Forgot Password',
   'user.email': 'E-mail',
   'user.password': 'Password',
   'user.forgot-password-question': 'Forget password?',
   'user.fullname': 'Full Name',
-  'user.login-button': 'LOGIN',
+  'user.login-button': 'Masuk',
   'user.register-button': 'REGISTER',
   'user.reset-password-button': 'RESET',
   'user.buy': 'BUY',

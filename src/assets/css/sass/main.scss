@@ -6,8 +6,15 @@
 @import './_05_views.scss';
 
 /** your custom css code **/
-/* 
-html {
-    background-color: $theme-color-1 !important;
+
+.login-input {
+  border-radius: 0.75rem;
+  height: 60px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding-left: 1rem;
 }
-*/
+
+.login-input ::placeholder {
+  color: #ccc;
+}
